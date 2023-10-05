@@ -6,7 +6,10 @@
     "prefer-stable": true,
     "config": {
         "discard-changes": true,
-        "process-timeout": 0
+        "process-timeout": 0,
+        "theme-directories": [
+            "web/modules/freebird/themes/highwire"
+        ]
     },
     "require": {
         "highwire/freebird": "dev-PLATFORM1-2508",
